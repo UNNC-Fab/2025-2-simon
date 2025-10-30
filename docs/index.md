@@ -3,23 +3,31 @@
 layout: home
 
 hero:
-  name: "My Hello Project"
+  name: "My Fablab Project"
   text: "A VitePress Site"
-  tagline: My great project tagline
+  tagline: Simon Li
+  image: 
+    light: https://image-processor-storage.s3.us-west-2.amazonaws.com/images/281c2d4581ed27c8a258b0e79bc504ad/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg
+    dark: https://d1hjkbq40fs2x4.cloudfront.net/2020-12-04/files/1.jpg
+    style: 
+      width: '1000px' ##? no change
+      height: 'auto'
+
+
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Get Started
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: More in GitHub
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: HTML Web Design
+    details: Course details
+  - title: TBD
+    details: N/A
+  - title: TBD
+    details: N/A
 ---
 
