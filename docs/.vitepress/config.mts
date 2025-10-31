@@ -9,23 +9,23 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Courses', link: '/Project-Manage' }
+      { text: 'Course', link: '/Project-Manage' },
+      { text: 'Homework', link: '/Open-Source' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Course',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Project Manage', link: '/Project-Manage' },
+          { text: 'Arduino', link: '/Arduino' },
         ]
       },
         {
-        text: 'Courses',
+        text: 'Homework',
         items: [
-          { text: 'Project Manage', link: '/Project-Manage' },
-          { text: 'CAD Design', link: '/CAD-Design' },
+          { text: 'Open Source', link: '/Open-Source' },
+          { text: 'Progamming Sowftware Apple', link: '/Apple-Program' },
         ]
       }
       

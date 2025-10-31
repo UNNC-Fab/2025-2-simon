@@ -10,7 +10,7 @@ hero:
     light: https://image-processor-storage.s3.us-west-2.amazonaws.com/images/281c2d4581ed27c8a258b0e79bc504ad/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg
     dark: https://d1hjkbq40fs2x4.cloudfront.net/2020-12-04/files/1.jpg
     style: 
-      width: '1000px' ##? no change
+      width: '2000px' 
       height: 'auto'
 
 
