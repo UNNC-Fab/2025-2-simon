@@ -14,13 +14,13 @@ hero:
       height: 'auto'
 
 
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /markdown-examples
-    - theme: alt
-      text: More in GitHub
-      link: /api-examples
+  ##actions:
+  ##  - theme: brand
+  ##    text: Get Started
+  ##    link: /markdown-examples
+  ##  - theme: alt
+  ##    text: More in GitHub
+  ##    link: /api-examples
 
 features:
   - title: HTML Web Design

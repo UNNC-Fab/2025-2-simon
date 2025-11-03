@@ -26,6 +26,7 @@ export default defineConfig({
         items: [
           { text: 'Open Source', link: '/Open-Source' },
           { text: 'Progamming Sowftware Apple', link: '/Apple-Program' },
+          { text: 'Arduino Light', link: '/Arduino-Lights' },
         ]
       }
       
