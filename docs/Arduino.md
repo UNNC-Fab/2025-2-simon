@@ -75,3 +75,60 @@ void loop() {
 For connecting wires to Arduino board, 3.3V or 5V is positive whereas GND is the negative. \
 Always use red wires for positive and black wires for GND to avoid confusion.
 
+## Arduino Output
+Connecting sensor and motor to Arduino. \
+Connect 5V and GND to breadboard. Then attach sensor and motor to breadboard. \
+
+![Sensor Motor](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Arduino%20Sensor%20Motor.jpg)
+
+Running following code below:
+
+```Bash
+#include <Servo.h>
+#define PIN_SERVO 10
+
+Servo myservo;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  myservo.attach(PIN_SERVO);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int sensorValue =analogRead(A0);
+  int angle = map(sensorValue, 0, 1023, 0, 180);
+
+  myservo.write(angle);
+
+  Serial.print("Sensor Value: ");
+  Serial.print(sensorValue);
+  Serial.print(" -> Angle: ");
+  Serial.println(angle);
+
+  delay(200);
+  
+
+}
+```
+
+## Library and functions
+
+Sometimes when there is lines of code you would repeatedly use multiple different times it might be easier to create a function for it such as:
+
+```Bash
+void deal(unsigned char value){
+
+for(int i=0;i<8;i++)
+
+digitalWrite(ledPins[i],bitRead(value,i));
+
+}
+```
+
+This way instead of writing the same codes everytime you want to write 1 through 8 we can call function deal instead and add in variables in the parantheses. \
+
+In the case where there are mass amount of code that exists within a function a library would be used instead. These are files that under the same folder and can be called to. Purpose is to clean the coding so only the important sections can be clearly seen.
+
+

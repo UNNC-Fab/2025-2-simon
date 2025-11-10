@@ -6,6 +6,7 @@ export default defineConfig({
   description: "A VitePress Site",
   base: '/2025-2-simon/',
   themeConfig: {
+    search :{provider: 'local'},
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -27,6 +28,7 @@ export default defineConfig({
           { text: 'Open Source', link: '/Open-Source' },
           { text: 'Progamming Sowftware Apple', link: '/Apple-Program' },
           { text: 'Arduino Light', link: '/Arduino-Lights' },
+          { text: 'Arduino Assessment', link: '/Assessment-2' },
         ]
       }
       
