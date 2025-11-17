@@ -20,6 +20,7 @@ export default defineConfig({
         items: [
           { text: 'Project Manage', link: '/Project-Manage' },
           { text: 'Arduino', link: '/Arduino' },
+          { text: 'CAD', link: '/CAD' },
         ]
       },
         {
@@ -29,6 +30,7 @@ export default defineConfig({
           { text: 'Progamming Sowftware Apple', link: '/Apple-Program' },
           { text: 'Arduino Light', link: '/Arduino-Lights' },
           { text: 'Arduino Assessment', link: '/Assessment-2' },
+          { text: 'CAD Assessment', link: '/Assessment-3' },
         ]
       }
       
