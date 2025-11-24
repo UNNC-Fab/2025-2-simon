@@ -21,6 +21,7 @@ export default defineConfig({
           { text: 'Project Manage', link: '/Project-Manage' },
           { text: 'Arduino', link: '/Arduino' },
           { text: 'CAD', link: '/CAD' },
+          { text: '3D Printing', link: '/3D-Printing' },
         ]
       },
         {
