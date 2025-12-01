@@ -22,6 +22,7 @@ export default defineConfig({
           { text: 'Arduino', link: '/Arduino' },
           { text: 'CAD', link: '/CAD' },
           { text: '3D Printing', link: '/3D-Printing' },
+          { text: 'Laser Cutting', link: '/Laser-Cut' },
         ]
       },
         {
@@ -40,5 +41,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
+  
   }
+  
 })

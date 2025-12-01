@@ -12,8 +12,10 @@ If each layer is filled fully then not only would it cost overwhelmingly amounts
 
 As shown above, under the section in bambu before printing projects. There are different inputs that can be changed. Walls are number of outer layers the object has. If the wall is too thin the the object becomes fragile and easy to destroy. Generally 2 to 3 layers of wall are needed when printing. The other variance is the top and bottom shell. As mentioned before if everything is filled in with materials the project would cost too much resource and time. Different patterns can be chosen to fill in the center of the object to hold it together. Below is a template printed used for test printed halfway to see the progress inside object printed. As seen in this one there is a line on the border of the cube to show that this object used 2 layers of wall whe printed. 
 
-![Cube Test 1](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/3D%20test%20print%201.jpg)
-![Cube Test 2](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/3D%20test%20print%202.jpg)
+|||
+|-------------|-------------|
+|![Cube Test 1](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/3D%20test%20print%201.jpg)|![Cube Test 2](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/3D%20test%20print%202.jpg)|
+
 
 \
 \
@@ -33,5 +35,4 @@ Below is a gif of the printer in action. The area the machine is processing is c
 \
 Result of the 3D print from previous layout below. These two objects were printed together to save time. Generally it is best to put as many componenets, objects on the same printer board when preparing to print. This is because it takes time for the printer the prepare and takes time for printer to change material/color in between layers. When adding all the components together this saves time from not needing to prepare before print and changing colors. 
 ![Result of print](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Key%20Plate.jpg)
-
 
