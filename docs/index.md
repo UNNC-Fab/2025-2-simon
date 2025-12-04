@@ -1,43 +1,48 @@
 ---
-layout: home
-
-hero:
-  name: "My Fablab Project"
-  text: "A VitePress Site"
-  tagline: Simon Li
-  style: |
-    background-image: url('https://image-processor-storage.s3.us-west-2.amazonaws.com/images/281c2d4581ed27c8a258b0e79bc504ad/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    backdrop-filter: brightness(0.6);
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
-
+home: true
+sidebar: false
+heroImage: ''
 ---
 
-<div class="features-container">
+<style scoped>
+/* This <style scoped> applies ONLY to this page */
+.home-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+}
 
-  <div class="feature-card">
-    <h3>HTML Web Design</h3>
-    <p>Course details</p>
-  </div>
+.hero {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  z-index: 1;
+  pointer-events: none;
+}
 
-  <div class="feature-card">
-    <h3>TBD</h3>
-    <p>N/A</p>
-  </div>
+.hero-text {
+  pointer-events: auto;
+}
+</style>
 
-  <div class="feature-card">
-    <h3>TBD</h3>
-    <p>N/A</p>
-  </div>
-
+<div class="home-page"></div>
+<div class="hero">
+  <div class="hero-text">Fablab 2025</div>
 </div>

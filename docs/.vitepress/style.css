@@ -1,0 +1,35 @@
+/* Hide sidebar on homepage */
+.Layout[data-page-type="home"] .VPSidebar,
+.vp-doc[data-page-type="home"] + .VPSidebar,
+body:has([data-frontmatter*="home: true"]) .VPSidebar {
+  display: none !important;
+}
+
+/* Make content full width on homepage */
+.Layout[data-page-type="home"] .VPContent,
+.vp-doc[data-page-type="home"],
+body:has([data-frontmatter*="home: true"]) .VPContent {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Your existing hero styles */
+.hero {
+  background-image: url('https://image-processor-storage.s3.us-west-2.amazonaws.com/images/281c2d4581ed27c8a258b0e79bc504ad/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  backdrop-filter: brightness(0.6);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Rest of your existing styles... */

@@ -31,7 +31,7 @@ The parameters of the plugin is shown below:
 
 ## Engineer Drawing of Component
 Under design in Fusion 360 you can create engineer drawings of the components made shown at different angles and marked size. Picture below shows the engineer drawing of my 1st component. 
-![Engineer Drawing](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Engineer%20Drawing%20Comp%202.png)\
+![Engineer Drawing](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Engineer%20Drawing%20Comp%202.png)
 
 ## SolidWork CAD Software
 SolidWork is another 3D design software developed by  Dassault Systèmes. Commonly used in engineering, product design for detailed 3D models. SolidWork is tend to be known for its user friendly interface and allows for simulation and visualization of design accurately. While also offering tools for 2D drawing and motion analysis. 

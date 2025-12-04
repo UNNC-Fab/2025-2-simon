@@ -115,10 +115,10 @@ For Arduino input output following variables are required: \
 *For screen, the 4 digit 7 segement required too many wires to fit together with other variables I wrote code that is implemented for LCD screen but due to the fact that the physical hardware is currently not available currently codes for that is marked as comments.*
 
 Here is the situation when the switch is turned OFF. Nothing works as the switch acts as a power source for all objects connected to the Arduino.
-![Arduino Switch OFF](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Arudino%20HW2%20A.jpg)
+![Arduino Switch OFF](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Arudino%20HW2%20A%20Rotate.jpg)
 
 Next is the situation when the switch is turned ON. In this case, the LED light will be bright, the sensor can be turned that also moves the motor and the imaginary screen if there should print Hello World.
-![Arduino Switch ON](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Arduino%20HW2%20B.jpg)
+![Arduino Switch ON](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Arduino%20HW2%20B%20Rotate.jpg)
 
 My code for the Arduino project will be shown below with commentation: 
 
