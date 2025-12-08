@@ -75,6 +75,14 @@ export default defineConfig({
 
             ]
           },
+          {
+            text: 'Molding & Casting',
+            collapsed: false,
+            items: [
+              { text: 'Overview', link: '/courses/Molding_Casting/Molding_Casting' },
+
+            ]
+          },
         ]
       }
     ],
