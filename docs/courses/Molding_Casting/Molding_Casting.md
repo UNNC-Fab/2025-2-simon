@@ -1,6 +1,6 @@
 # Molding and Casting
 
-Both Molding and Casting are ways to process materials where material is melted or poured into a framework to create final form. The difference are usually the type of material that is used when processing. 
+Both Molding and Casting are ways to process materials where material is melted or poured into a framework to create final form. The difference are usually the type of material that is used when processing. Here are some pros and cons
 
 |Molding|Casting|
 |-------------|-------------|
@@ -58,3 +58,4 @@ Afterwards by mixing Resin Adhesive A and B we can pour in the gel case to finis
 |||
 |-------------|-------------|
 ![EX 1](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Successful%20Examples%20P1.jpg)|![Ex 2](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Successful%20Examples%20P2.jpg)|
+
