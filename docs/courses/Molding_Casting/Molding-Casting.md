@@ -32,7 +32,6 @@ The result of the previous cast did not end up well, most likely due to ratio of
 
 ## New cast
 While the previous cast was waiting to solidfy (Which it failed) we also 3D printed a new model with wider letter gap to create a more clear cast. 
-Model file Linked below. [Download Fusion 360 file here](./Casting-Model.f3d)
 
 ![Cast New](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20New.jpg)
 
