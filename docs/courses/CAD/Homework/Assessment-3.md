@@ -4,7 +4,7 @@
 For my 1st 3D model, I created a joystick that moves left and right through a piece of board that fits in a box. The result is shown below.
 ![Joystick](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Joystick.png)
 
-[Fusion 360 Project](./Joystick.f3d)
+
 ## GIF of Design
 Here is the project shown in action through a GIF.
 ![GIF](./3D%20Model%20Moving.gif)
