@@ -83,6 +83,30 @@ export default defineConfig({
 
             ]
           },
+          {
+            text: 'Processing',
+            collapsed: false,
+            items: [
+              { text: 'Overview', link: '/courses/Processing/Processing' },
+
+            ]
+          },
+          {
+            text: 'Electric Design',
+            collapsed: false,
+            items: [
+              { text: 'Overview', link: '/courses/Electric Design/Electric-Design' },
+
+            ]
+          },
+          {
+            text: 'PCB Manufacturing',
+            collapsed: false,
+            items: [
+              { text: 'Overview', link: '/courses/PCB Manufacture/PCB' },
+
+            ]
+          },
         ]
       }
     ],

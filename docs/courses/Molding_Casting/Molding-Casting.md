@@ -1,32 +1,5 @@
 # Molding and Casting
 
-Both Molding and Casting are ways to process materials where material is melted or poured into a framework to create final form. The difference are usually the type of material that is used when processing. Here are some pros and cons
-
-|Molding|Casting|
-|-------------|-------------|
-|Process is usually faster than casting | Allows greater complexity of design  |
-|Injection Model can be very expensive |Typically hard to cast large parts|
-
-## Molding
-As usual before using any machine **Check for Emergency Stop Button** 
-Picture shown on the left is the machine with the emergency stop on the right of the machine.
-The photo on the right shows the menu screen for the machine. You can choose how close the steel frame gap close into the injection area.
-|||
-|-------------|-------------|
-|![Mold Machine](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Mold%20Machine.jpg)| ![Menu Mold](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Menu%20Mold%202.jpg)|
-
-Example of the machine in action. When ready the steel frame will slowly move closer. 
-The right GIF shows how the machine is processing the material. In this scenario the material "ABC" placed in is slowly grinded into liquid to inject when the machine is heated up to around 180-200 degree celcius. 
-
-|||
-|-------------|-------------|
-|![Mold Action](./Mold%20Action.gif)|![Mold Material](./Mold%20Material.gif)|
-
-The result of the molding without the frame is shown on the left. When the frame is pressed on to the machine the sucessful result is shown on the right. Each of the side of this object has a different texture.
-
-|||
-|-------------|-------------|
-|![Material](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Molding%20Injections.jpg)|![Success](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Success%20Mold.jpg)|
 
 ## Casting
 Casting on the other hand can require a lot of time to create.
@@ -51,11 +24,33 @@ To note that the 11 year old gel may not be the best material to use for casting
 |![Back](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Result%20Back%202014.jpg)|![Extra](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Extra%20Part.jpg)|
 
 Afterwards by mixing Resin Adhesive A and B we can pour in the gel case to finish. The two bottles on the right are Resin Adhesive A and B. The example on the left with blue liquid is the result. **Note that the color is from color dye and intial color is clear**
-![Resin Adhesive](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Example.jpg)
+![](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Epoxy%20Resin.jpg)
 
-### Example of Castings
+### Result A
+The result of the previous cast did not end up well, most likely due to ratio of Epoxy Resin not being 50:50 after a week the gel was very sticky and hardly came off. 
+![Cast Old](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Old.jpg)
 
+## New cast
+While the previous cast was waiting to solidfy (Which it failed) we also 3D printed a new model with wider letter gap to create a more clear cast. 
+Model file Linked below. [Download Fusion 360 file here](./Casting%20Model.f3d)
+
+![Cast New](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20New.jpg)
+
+Gif below shows how to remove the cast model from the 3D printed one.
+![Remove Cast](./Removing%20Cast.gif)
+
+This did have some issues, as the measurements when created were slightly off. The depth of the letter was the same as the depth of the key chain which caused it impossible to actually create a cast with the letters. 
+![New 2](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20New%202.jpg)
+
+To be able to actually cast the model. We cutted the excess material off by half. result shown on the left photo and excess material on the right. 
 |||
 |-------------|-------------|
-![EX 1](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Successful%20Examples%20P1.jpg)|![Ex 2](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Successful%20Examples%20P2.jpg)|
+|![New 3](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20New%203.jpg)|![New 4](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20New%204.jpg)| 
+
+
+### Result B
+The new result is shown below. Show below is the correct 50:50 ratio of epoxy resin. Extra parts can be cut off when taken out. 
+![Final Cast](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Casting%20Final%20Product.jpg)
+
+
 
