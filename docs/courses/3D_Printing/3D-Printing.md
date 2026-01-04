@@ -36,4 +36,4 @@ Below is a gif of the printer in action. The area the machine is processing is c
 Result of the 3D print from previous layout below. These two objects were printed together to save time. Generally it is best to put as many componenets, objects on the same printer board when preparing to print. This is because it takes time for the printer the prepare and takes time for printer to change material/color in between layers. When adding all the components together this saves time from not needing to prepare before print and changing colors. 
 ![Result of print](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Key%20Plate.jpg)
 
-[Link to Bambu File](Fablab%20Plate.3mf)
+[Link to Bambu File](Fablab-Plate.3mf)
