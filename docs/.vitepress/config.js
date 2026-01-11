@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "My Fablab Project",
+  title: "UNNC-FAB 2025-2 Simon",
   description: "A VitePress Site",
   base: '/2025-2-simon/',
   themeConfig: {

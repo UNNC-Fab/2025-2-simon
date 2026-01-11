@@ -44,5 +44,5 @@ heroImage: ''
 
 <div class="home-page"></div>
 <div class="hero">
-  <div class="hero-text">Fablab 2025</div>
+  <div class="hero-text">UNNC-FAB 2025-2</div>
 </div>

@@ -1,19 +1,5 @@
 # Week 2 - Arduino
 
-## Open Source Software and Hardware
-Open source products are source code which anybody can have access to. 
-
-Some software examples are Java, Blender, Firefox.
-
-![Open Source Software](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Open%20Source%20Software.png){width=300px height=100px}
-
-Open source hardware are products like Arduino, RaspberryPi etc.
-![Open Source Hardware](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Open%20Source%20Hardware.png){width=300px height=100px}
-
-This leads to different licenses that can be granted:
-![Open Source License Distribution](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Open%20Source%20License%20Distribution.png){width=500px height=100px}
-
-
 ## Arduino Basic
 There are many different types of Arduino boards that have been created.
 The one for course that will likely be most often used is the Arduino Uno board.
@@ -23,11 +9,7 @@ The one for course that will likely be most often used is the Arduino Uno board.
 Some examples of components used in Arduino: \
 Breadboard (Where all the components placed to connect onto a Arduino)
 
-![Breadboard](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Breadboard%20Arduino.png)
-
 Resistors (Arduino has output of 3.3V and 5V without resistors some objects such as led lights will fry)
-![Resistor Table](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Resistor%20Arduino.png)
-
 
 ## Arduino Code
 
@@ -113,6 +95,8 @@ void loop() {
 }
 ```
 
+![Motor Sensor](./Motor%20Sensor.gif)
+
 ## Library and functions
 
 Sometimes when there is lines of code you would repeatedly use multiple different times it might be easier to create a function for it such as:
@@ -127,7 +111,7 @@ digitalWrite(ledPins[i],bitRead(value,i));
 }
 ```
 
-This way instead of writing the same codes everytime you want to write 1 through 8 we can call function deal instead and add in variables in the parantheses. \
+This way instead of writing the same codes everytime you want to write 1 through 8 we can call function deal instead and add in variables in the parantheses. 
 
 In the case where there are mass amount of code that exists within a function a library would be used instead. These are files that under the same folder and can be called to. Purpose is to clean the coding so only the important sections can be clearly seen.
 

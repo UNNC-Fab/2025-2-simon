@@ -8,9 +8,10 @@ Build a personal site for final project and recording assignments.
    2. nodejs (https://nodejs.org/en/)
    3. VScode (https://code.visualstudio.com/)
    4. Image upload service Picgo (https://github.com/Molunerfinn/PicGo/releases/tag/v2.2.2)
+   5. GIT
 
 ## Set up website with Vitepress
-After done installing open Vscode and run the following code to install vitepress \
+After done installing open Vscode and run the following code to install vitepress 
 ```bash
 npm add -D vitepress
 ```
