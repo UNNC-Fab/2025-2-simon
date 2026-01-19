@@ -8,10 +8,135 @@ Build a personal site for final project and recording assignments.
    2. nodejs (https://nodejs.org/en/)
    3. VScode (https://code.visualstudio.com/)
    4. Image upload service Picgo (https://github.com/Molunerfinn/PicGo/releases/tag/v2.2.2)
-   5. GIT
+   5. GIT (https://git-scm.com/install/windows)
 
 ## Set up website with Vitepress
+
+### GIT 
+Once Vscode and GIT is installed open terminal in Vscode by (Ctrl + ~)
+Then type: 
+```Bash
+git --version 
+```
+If results in git version 2.4x.x then installation is successful.
+
+Afterwards run the following lines in terminal: 
+```Bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
+Replace quotation with your own information. 
+Once setup this creates .git folder which helps you track the project.
 After done installing open Vscode and run the following code to install vitepress 
+
+### Package Json
+We will need package.json added to the project to do so type in 
+```Bash
+npm init -y
+```
+This file is needed cause it acts as the “brain” function of the project， it can record installed libraries，create shortcut and define project name and version for publishing.
+
+#### Local Webpage
+To check progress of the webpage you can view the site locally through following command in terminal: npm run docs:dev
+
+#### Search Bar
+Adding a search bar for information in site is simple by adding following 
+search: { provider: 'local' }, under the themeconfig in config.js implements a local search on site.
+
+### Project Tree
+Here is what my project tree looks like:
+```
+GitHub
+└─ 2025-2-simon
+   ├─ docs
+   │  ├─ .vitepress
+   │  │  ├─ cache
+   │  │  │  └─ deps
+   │  │  │     ├─ chunk-JAPIL3UL.js
+   │  │  │     ├─ chunk-JAPIL3UL.js.map
+   │  │  │     ├─ chunk-OV36UNJN.js
+   │  │  │     ├─ chunk-OV36UNJN.js.map
+   │  │  │     ├─ package.json
+   │  │  │     ├─ vitepress___@vueuse_core.js
+   │  │  │     ├─ vitepress___@vueuse_core.js.map
+   │  │  │     ├─ vitepress___@vueuse_integrations_useFocusTrap.js
+   │  │  │     ├─ vitepress___@vueuse_integrations_useFocusTrap.js.map
+   │  │  │     ├─ vitepress___@vue_devtools-api.js
+   │  │  │     ├─ vitepress___@vue_devtools-api.js.map
+   │  │  │     ├─ vitepress___mark__js_src_vanilla__js.js
+   │  │  │     ├─ vitepress___mark__js_src_vanilla__js.js.map
+   │  │  │     ├─ vitepress___minisearch.js
+   │  │  │     ├─ vitepress___minisearch.js.map
+   │  │  │     ├─ vue.js
+   │  │  │     ├─ vue.js.map
+   │  │  │     └─ _metadata.json
+   │  │  ├─ config.js
+   │  │  └─ style.css
+   │  ├─ courses
+   │  │  ├─ 3D_Printing
+   │  │  │  ├─ 3D Printing.gif
+   │  │  │  ├─ 3D-Printing.md
+   │  │  │  ├─ Cube02ProfileMini.3mf
+   │  │  │  └─ Fablab-Plate.3mf
+   │  │  ├─ Arduino
+   │  │  │  ├─ Arduino.md
+   │  │  │  ├─ Homework
+   │  │  │  │  ├─ Arduino-Lights.md
+   │  │  │  │  ├─ Assessment-2.md
+   │  │  │  │  └─ Motor Sensor Switch Light.gif
+   │  │  │  └─ Motor Sensor.gif
+   │  │  ├─ CAD
+   │  │  │  ├─ CAD.md
+   │  │  │  └─ Homework
+   │  │  │     ├─ 3D Model Moving.gif
+   │  │  │     ├─ Assessment-3.md
+   │  │  │     ├─ CAD Design History .mp4
+   │  │  │     ├─ Design History.gif
+   │  │  │     ├─ Engineer Sketch Joystick.pdf
+   │  │  │     └─ Joystick.f3d
+   │  │  ├─ Electric Design
+   │  │  │  ├─ BackupProjects_yousa_x_psyd_personal_0_20260103.zip
+   │  │  │  ├─ Electric-Design.md
+   │  │  │  └─ Gerber_New-Project_PCB_New-Project_2_2025-12-24.zip
+   │  │  ├─ Laser_Cutting
+   │  │  │  ├─ Laser Printing.gif
+   │  │  │  └─ Laser-Cut.md
+   │  │  ├─ Molding_Casting
+   │  │  │  ├─ Casting-Model.f3d
+   │  │  │  ├─ Mold Action.gif
+   │  │  │  ├─ Mold Material.gif
+   │  │  │  ├─ Molding-Casting.md
+   │  │  │  └─ Removing Cast.gif
+   │  │  ├─ PCB Manufacture
+   │  │  │  ├─ PCB prep GIF.gif
+   │  │  │  └─ PCB.md
+   │  │  ├─ Processing
+   │  │  │  ├─ Process Arduino LED.gif
+   │  │  │  └─ Processing.md
+   │  │  └─ Project_Manage
+   │  │     ├─ Homework
+   │  │     │  ├─ Apple-Program.md
+   │  │     │  └─ Open-Source.md
+   │  │     └─ Project-Manage.md
+   │  ├─ index.md
+   │  └─ public
+   │     └─ Background.jpg
+   ├─ package-lock.json
+   ├─ package.json
+   └─ README.md
+
+```
+
+To make this project tree is simple, in Vscode install project tree extension. By using (Ctrl + Shift + P) this creates a README file in the project with the tree of the entire project. 
+
+### Git Clone
+First copy the URL of the Github repository under <> Code ex: https://github.com/UNNC-Fab/2025-2-simon
+Then open terminal and type following command, remember to fill in your own github
+```Bash
+git clone https://github.com/UNNC-Fab/2025-2-simon
+```
+Once done type cd project name and then code .-r to open cloned project from Github in Vscode
+### Vitepress
 ```bash
 npm add -D vitepress
 ```
@@ -26,6 +151,7 @@ With this a blank website is built, to add things in lets start with a template.
 Vitepress builds through a file called config.mts under docs/.vitepress 
 
 ![Vitepress Config](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Config%20mts.png)
+
 
 Details of my config page is following:
 ```bash
@@ -84,15 +210,6 @@ hero:
     style: 
       width: '2000px' 
       height: 'auto'
-
-
-  ##actions:
-  ##  - theme: brand
-  ##    text: Get Started
-  ##    link: /markdown-examples
-  ##  - theme: alt
-  ##    text: More in GitHub
-  ##    link: /api-examples
 
 features:
   - title: HTML Web Design

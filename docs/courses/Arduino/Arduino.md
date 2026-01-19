@@ -13,6 +13,19 @@ Resistors (Arduino has output of 3.3V and 5V without resistors some objects such
 
 ## Arduino Code
 
+### *Arduino IDE* 
+Interface of Arduino IDE:
+![Arduino IDE Interface](https://raw.githubusercontent.com/ChocoLateDreAm/imageuploadservice/main/img/Arduino%20IDE%20Interface.png)
+1. Where Arduino code is written, void setup() is where you input code that runs once and void loop() is where you input code that runs as long as the program is running.
+
+2. This is where you select what type of Arduino board you are using, usually offered as choice when connected to your PC.
+
+3. Leftmost icon is to verify, this check if the program has any syntax error and if it can be succesfully runned. Middle icon is to Upload or compile, this sends signal to your Arduino board and runs the code written. Rightmost icon is to start debugging if there are issues in the code.
+
+4. Header tools that can be used in Arduino. 
+
+5. Serial Plotter and Serial Monitor, useful tools that provides current output of Arduino board such as sensor or motor. 
+
 ```Bash
 digitalread()
 ```
@@ -116,3 +129,6 @@ This way instead of writing the same codes everytime you want to write 1 through
 In the case where there are mass amount of code that exists within a function a library would be used instead. These are files that under the same folder and can be called to. Purpose is to clean the coding so only the important sections can be clearly seen.
 
 
+## Arduino Store 
+Arduino Kits can be purchased with link below.
+https://store.arduino.cc/
